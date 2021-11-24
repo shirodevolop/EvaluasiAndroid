@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfersi suhu"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan suhu celcius"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/input_suhu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#7E7F83"
+        android:padding="10dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/reamus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reamus"
+        android:layout_marginTop="15dp"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Fahreit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farenheit"
+        android:layout_marginTop="5dp"
+        android:textSize="19sp"
+
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/Kelfin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelvin"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_konfersi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Lihat Hasil"
+        android:backgroundTint="@color/purple_700"/>
+
+
+
+</LinearLayout>
